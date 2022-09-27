@@ -3,7 +3,7 @@
 
 import multiprocessing
 
-bind = '0.0.0.0:9898'
+bind = '0.0.0.0:80'
 workers = 20
 backlog = 2048
 worker_class = "gevent"
